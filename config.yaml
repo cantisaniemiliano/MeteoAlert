@@ -1,0 +1,48 @@
+# aeropuertos:
+#   - SAEZ
+#   - SABE
+#   - SACO
+#   - SAME
+
+# whatsapp:
+#   - "+5491167647053"
+#   - "+5491166524353"
+#   # - "+5491150576435"
+#   # - "+5491136167304"
+
+twilio:
+  account_sid: "ACf24152bc765a1d8b8794b0d18c30fee4"
+  auth_token: "d6eeb61e9bfe04506b74d652173ec239"
+  whatsapp_from: "whatsapp:+14155238886"  # Número de Twilio
+
+destinatarios:
+  - "whatsapp:+541166524353"  # Emi
+  - "whatsapp:+5491167647053" # Celes
+  - "whatsapp:+5491136167304" # Santi
+  - "whatsapp:+5491150576435" # Kelo
+
+aeropuertos:
+  - codigo: "SAEZ"
+    iata: "EZE"
+    umbrales:
+      viento: 30     # kt
+      visibilidad: 3000 # metros
+      techo_nubes: 1000 # pies
+  - codigo: "SABE"
+    iata: "AEP"
+    umbrales:
+      viento: 25
+      visibilidad: 4000
+      techo_nubes: 1200
+  - codigo: "SACO"
+    iata: "COR"
+    umbrales:
+      viento: 25
+      visibilidad: 3000
+      techo_nubes: 1000
+  - codigo: "SAME"
+    iata: "MDZ"
+    umbrales:
+      viento: 25
+      visibilidad: 3000
+      techo_nubes: 1000
